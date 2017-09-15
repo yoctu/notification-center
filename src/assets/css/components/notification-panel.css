@@ -1,0 +1,124 @@
+#notification{
+    width:440px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #555555;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    position: absolute;
+    top: 54px;
+    right: 0px;
+    z-index: 12000;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+
+#notification #notif-list{
+    color:#555555;
+    padding:0;
+    max-height:400px;
+    min-height:60px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size:13px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    width:100%;
+}
+
+#notification #notif-header{
+    height:18px;
+    width:100%;
+    background:#cecece;
+    border-bottom:1px solid #cccccc;
+}
+
+#notification #notif-list a{
+    color:#555555;
+}
+
+#notification #notif-delete-all{
+    float:right;
+}
+
+#notification .icon-block{
+    font-size:48px;
+    color: #999999;
+}
+
+#notification .notif-item-none{
+    width:64px;
+    margin:auto;
+    list-style:none;
+    margin-top:4px;
+}
+
+#notification .notif-item-loader{
+    border-top:1px solid #939393;
+    padding-top: 3px;
+    padding-left:46%;
+}
+
+#notification .icon-spin5{
+    font-size:20px;
+}
+
+#notification .notif-item-loadMore {
+    background: #cecece;
+    cursor: pointer;
+    height: 18px;
+    border-top: 1px solid #939393;
+    text-align: center;
+}
+
+#notification-wrapper{
+    float:left;
+}
+
+#notification-wrapper #notification-button .icon-bell{
+    box-shadow:none;
+}
+
+#notification-wrapper #notification-button .notif-button-count{
+    font-size:10px;
+    top:4px;
+}
+
+
+#notification #notif-list{
+    width: 100%;
+}
+
+
+#notification #notif-header{
+    background: #ffffff;
+}
+
+
+
+#notification #notif-header{
+    border-bottom:none;
+}
+
+#notification #notif-header{
+    font-size:12px;
+}
+
+@media only screen and (max-width: 768px) {
+    #notification {
+        position: inherit;
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 98%;
+    }
+
+    #notification #notif-list{
+        max-height:200px;
+    }
+
+    #notification-wrapper {
+        float:none;
+    }
+}

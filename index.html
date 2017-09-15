@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>notification-center</title>
+    <link href="/dist/notification-center.min.css" rel="stylesheet" type="text/css">
+    <link href="/src/assets/css/font_custom.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="notifications"></div>
+
+<script src="/dist/notification-center.min.js"></script>
+<script>
+    var nc = new NotificationCenter('#notifications', {
+        identifier: 'recipient'
+    }, '127.0.0.1:8889');
+    nc.build();
+</script>
+</body>
+</html>

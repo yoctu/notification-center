@@ -1,0 +1,159 @@
+.clear{
+    clear:both;
+}
+
+/* Properties */
+#notification .boxPadding{
+    padding:1%;
+}
+
+/* Divs */
+#notification .notif-item{
+    list-style: none;
+    border-top: 1px solid #b3b3b3;
+    background:#f5f5f5;
+}
+
+#notification .notif-item.even{
+    background:#f5f5f5;
+}
+
+#notification .notif-item.unread{
+    background: #ffffff;
+    color:#ff0000;
+}
+
+#notification .notif-item-header{
+    position: relative;
+    height:inherit;
+    line-height: 12px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 12px;
+    border-bottom: 1px solid #b3b3b3;
+    background-color:#bfbfbf;
+}
+
+
+
+
+#notification .notif-item-wrapper{
+    position:relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    display: flex;
+}
+
+#notification .notif-item-left{
+    border-right:1px solid #b3b3b3;
+    flex:1;
+    display:block;
+}
+
+#notification .notif-item-right{
+    width:10px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    background: #cecece;
+}
+
+#notification .notif-item-top, #notification .notif-item-bottom{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    display: flex;
+}
+
+#notification .notif-item-delete{
+
+}
+
+#notification .notif-item-message{
+    min-width:75%;
+    height:100%;
+}
+
+#notification .notif-item-timestamp{
+    font-style:italic;
+}
+
+#notification .notif-item-actions{
+    list-style: none;
+    width:20%;
+    height:100%;
+    text-align:center;
+}
+
+#notification .notif-item-info-boxes{
+    padding:0;
+    width:100%;
+    border-color: #939393;
+}
+
+#notification .notif-item-info-box{
+    float:left;
+    width:47%;
+}
+
+#notif-button{
+    width:24px;
+    height:24px;
+    border:1px solid black;
+    position:relative;
+}
+
+#notif-button #notif-icon{
+
+}
+
+#notif-button #notif-count{
+    position: absolute;
+    left: -6px;
+    bottom: -7px;
+    color: black;
+    border: 1px solid red;
+    border-radius: 30px;
+    background: red;
+    font-size: 12px;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+}
+
+#notification .icon-cancel{
+    cursor:pointer;
+}
+
+
+
+#notification-wrapper .notif-item-timestamp{
+    font-size: 11px;
+    color: #bbbbbb;
+}
+
+#notification-wrapper .notif-item-right{
+    background: #ffffff;
+}
+
+#notification .notif-item-left{
+    border:none;
+}
+
+#notification .notif-item{
+    border-top: 1px solid lightgrey;
+    background: #ffffff;
+}
+
+.notif-item-right{
+    background:#fff;
+    margin-right: 8px;
+}

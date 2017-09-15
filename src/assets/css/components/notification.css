@@ -1,0 +1,47 @@
+#notification-button{
+    width:48px;
+    height:48px;
+    cursor:pointer;
+}
+
+#notification-button .notif-button-wrapper{
+    padding-top:12px;
+    position:relative;
+}
+
+#notification-button .notif-button-icon{
+
+}
+
+#notification-button .icon-bell-alt,
+#notification-button .icon-bell{
+    font-size: 20px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 3px;
+    box-shadow: 1px 1px 1px 0px #bbb;
+}
+
+#notification-button .notif-button-count{
+    position: absolute;
+    top: 0px;
+    right: 9px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 6px 6px 6px 6px;
+    color: white;
+    font-size: 12px;
+    padding: 1px;
+    min-width: 12px;
+    text-align: center;
+}
+
+#notification-wrapper #notification-button .icon-bell, #notification-wrapper #notification-button .icon-bell-alt{
+    border:none;
+}
+
+#notification-wrapper .notif-button-icon{
+    margin-top: 4px;
+}
+
+

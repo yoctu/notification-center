@@ -1,0 +1,27 @@
+{
+    "name": "fei/notification-center",
+    "description": "Notification center for notification API",
+    "authors": [
+        {
+            "name": "Jordan Heussler",
+            "email": "jhe@opcoding.eu"
+        },
+        {
+            "name": "Ludovic Sanctorum",
+            "email": "lsa@opcoding.eu"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer.flash-global.net"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Fei\\Service\\Notification\\": "src/"
+        }
+    }
+}
