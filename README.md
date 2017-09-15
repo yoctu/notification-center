@@ -80,5 +80,3 @@ With a inside action in NC
 | removeNotification       | When you remove a Notification         | `Notification`      | 
 | removeAllNotifications       | When you remove all Notifications         | `Array of Notifications`      |
 | readNotification       | When you read a Notification          | `Notification`      |
-
-
