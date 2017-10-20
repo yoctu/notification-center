@@ -27,6 +27,16 @@ But keep in mind that you need to insert this script in your composer.json. So i
       }
 	}
 ```
+
+## Compilation
+
+Don't forget to build your sources after updating them. To do that you can issue the following commands from the root directory:
+
+```
+npm install
+npm run build
+```
+
 ## Integration
 
 Notification Center needs a WebSocket server to connect to receive and emit messages.
