@@ -18,14 +18,14 @@ But keep in mind that you need to insert this script in your composer.json. So i
 			"fei/notification-center": "^1.0.0"
 		},
 		"scripts": {
-          "post-update-cmd": "Fei\\Service\\Notification\\Command\\InstallAssets::postUpdate"
-      },
-      "extra": {
-          "notification-center": {
-              "public-path":  "public/assets"
-          }
-      }
-	}
+                        "post-update-cmd": "Fei\\Service\\Notification\\Command\\InstallAssets::postUpdate"
+                },
+                "extra": {
+                        "notification-center": {
+                               "public-path":  "public/assets",
+                               "vendor-path":  "../../vendor"
+                }
+         }
 ```
 
 ## Compilation
