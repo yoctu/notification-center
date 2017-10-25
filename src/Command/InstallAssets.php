@@ -13,12 +13,15 @@ class InstallAssets
 {
     public static function postUpdate(Event $event)
     {
-
         $composer = $event->getComposer();
         $package = $composer->getPackage();
         $extra = $package->getExtra();
 
-        $targetPath = $composer->getConfig()->get('vendor-dir')  . '/fei/notification-center/dist';
+        if (empty($extra['notification-center']['vendor-path'])) {
+            throw new \Exception("Extra parameter vendor-path doesn't exists in your composer.json");
+        }
+
+        $targetPath = $extra['notification-center']['vendor-path'] . '/fei/notification-center/dist';
 
         if (empty($extra['notification-center']['public-path'])) {
             throw new \Exception("Extra parameter doesn't exists in your composer.json");
